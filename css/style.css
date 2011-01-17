@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{ margin:0px; padding:0px; }
+img{ border:none;}
+a{ text-decoration:none; outline:0;}
+.clear{ clear:both;}
+ul{ display:block; list-style:none outside none; }
+
+body { background:#FFFFFF; color:#555555; font-family:"Helvetica Neue",Arial,sans-serif; font-size:13px; }
+
+#top{ background:#6699FF; margin:0 auto; }
+#top_container{ margin:0 auto; width:1000px; }
+#top_container a.logo{ background:url("../images/logo.png") no-repeat scroll 0 center transparent;display:block;float:left;height:43px;overflow:hidden;text-indent:-1000em; width:57px; }
+#top_nav{ line-height:43px; float:left;}
+#top_nav li{ float:left; display:inline; }
+#top_nav li a{ height:43px;  display:inline; float:left; color:white; font-size:13px; padding:0 15px; }
+

@@ -16,3 +16,25 @@ body { background:#FFFFFF; color:#555555; font-family:"Helvetica Neue",Arial,san
 #top_nav li{ float:left; display:inline; }
 #top_nav li a{ height:43px;  display:inline; float:left; color:white; font-size:13px; padding:0 15px; }
 
+#main_container{ margin:0 auto; width:1000px; }
+#main_container{ padding-top:20px; }
+
+#shortform{ display:inline; float:left; position:relative; width:668px; }
+#shortform textarea{ background:none repeat scroll 0 0 #ECF6FF; border:1px solid #CCCCCC; color:#B2C0CF; font-size:26px; height:130px; padding:10px; width:646px; }
+#shortform .shadow{ position:absolute; height:130px; padding:10px; width:646px; color:#B2C0CF; font-size:26px; font-weight:300;text-align:center; vertical-align:middle; line-height:130px; cursor:text; top:0px; left:0px;
+}
+#shortform p.last{ display:block; padding:15px 0px; height:30px; }
+#shortform .share{background:url("../images/buttons_sprite.gif") no-repeat scroll -13px -3px transparent; border-width:0; color:#FFFFFF; cursor:pointer; font-size:13px; height:30px; line-height:31px; padding-bottom:1px; text-align:center; width:100px; display:inline; float:right; margin:0px 5px;}
+#shortform .shorten{background:url("../images/buttons_sprite.gif")  no-repeat scroll -140px -3px transparent; border-width:0; color:#000000; cursor:pointer; font-size:13px; height:30px; line-height:31px; padding-bottom:1px; text-align:center; width:100px; display:inline; float:right; margin:0px 5px;}
+
+#main_description {float:right; display:inline; width:260px;}
+
+#main_sharing{ float:left; display:inline; width:668px; border-top:1px solid #EFEFEF; padding:15px 5px; }
+#main_sharing .title{font-size:16px; font-weight:normal; padding-bottom:5px;}
+#main_sharing .share_list li{ padding-left:20px; margin:2px 0px;  }
+#main_sharing .share_list li a{ margin-left:10px;}
+#main_sharing .share_list li.sinawb{ background:url(../images/sina-small.png) no-repeat; }
+#main_sharing .share_list li.douban{ background:url(../images/douban-small.png) no-repeat; }
+#main_sharing .share_list li.renren{ background:url(../images/renren-small.png) no-repeat; }
+
+
